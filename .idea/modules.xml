@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hgu_sw_festival.iml" filepath="$PROJECT_DIR$/hgu_sw_festival.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/hgu_sw_festival_android.iml" filepath="$PROJECT_DIR$/android/hgu_sw_festival_android.iml" />
+    </modules>
+  </component>
+</project>
