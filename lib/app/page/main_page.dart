@@ -16,14 +16,9 @@ class _MainPageState extends State<MainPage> {
           height: 1000,
           width: 400,
           decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topRight,
-              end: Alignment.bottomLeft,
-              colors: [
-                Color(0xffff9a3e), // fisrt color. gradient
-                Color(0xFFFFCB9B), // 중간 색상
-                Color(0xFFFFD7B1),
-              ],
+            image: DecorationImage(
+              image: AssetImage('assets/images/mainpage_background.png'),
+              fit: BoxFit.fill,
             ),
           ),
           child: Column(
@@ -36,30 +31,35 @@ class _MainPageState extends State<MainPage> {
                   child: const Column(
                     children: [
                       SizedBox(
-                        height: 85,
+                        height: 60,
                       ),
                       Positioned(
-                          bottom: 0,
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.end,
-                            children: [
-                              Icon(
-                                Icons.diamond_outlined,
-                                color: Colors.white,
-                                size: 50,
-                              ),
-                              SizedBox(
-                                width: 20,
-                              ),
-                              Icon(Icons.search_outlined)
-                            ],
-                          )),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Icon(
+                              Icons.search_outlined,
+                              color: Colors.black,
+                            ),
+                            SizedBox(
+                              width: 30,
+                            ),
+                            Icon(Icons.my_library_add_outlined),
+                            SizedBox(
+                              width: 20,
+                            )
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        height: 50,
+                      ),
                       Text(
                         "Treater에서\n보물을 찾으세요!",
                         textAlign: TextAlign.center,
                         style: TextStyle(
                             fontSize: 24,
-                            color: Colors.white,
+                            color: Colors.black,
                             fontWeight: FontWeight.w600),
                       ),
                     ],
