@@ -13,19 +13,18 @@ class _MainPageState extends State<MainPage> {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          height: 1000,
-          width: 400,
           decoration: const BoxDecoration(
             image: DecorationImage(
               image: AssetImage('assets/images/mainpage_background.png'),
-              fit: BoxFit.fill,
+              fit: BoxFit.none,
+              alignment: Alignment.topCenter,
             ),
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Expanded(
-                flex: 2,
+                flex: 3,
                 child: Container(
                   alignment: Alignment.bottomCenter,
                   child: const Column(
@@ -47,7 +46,7 @@ class _MainPageState extends State<MainPage> {
                             Icon(Icons.my_library_add_outlined),
                             SizedBox(
                               width: 20,
-                            )
+                            ),
                           ],
                         ),
                       ),
@@ -59,7 +58,7 @@ class _MainPageState extends State<MainPage> {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                             fontSize: 24,
-                            color: Colors.black,
+                            color: Colors.white,
                             fontWeight: FontWeight.w600),
                       ),
                     ],
@@ -67,7 +66,7 @@ class _MainPageState extends State<MainPage> {
                 ),
               ),
               Expanded(
-                flex: 5,
+                flex: 7,
                 child: Container(
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.only(
