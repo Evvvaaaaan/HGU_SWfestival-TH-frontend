@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		nby2SjioJ7ueplgV59YHqFwvXU4=
+		ZjE9HNNRrLIYF+E29znnk/5iJVc=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		6hOG+omTj4u2zIkMOEvn6bdTEjM=
+		uM0Fx9PtiawEwJG9X7SzFSO10oA=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -24,9 +24,21 @@
 		<data>
 		sanFwrcRodSCwbY1DxrKy4asw0E=
 		</data>
+		<key>flutter_assets/assets/images/.DS_Store</key>
+		<data>
+		SL2kzTX0NKr20H+vvbgNDxvdvV4=
+		</data>
+		<key>flutter_assets/assets/images/Treater.png</key>
+		<data>
+		mlLknOMSjbG4qfiZgDBRVzFEwCE=
+		</data>
 		<key>flutter_assets/assets/images/mainpage_background.png</key>
 		<data>
 		yEn5CfYM8jJ2HI1SOKTIr0PV+t0=
+		</data>
+		<key>flutter_assets/assets/images/treasure-2%201.png</key>
+		<data>
+		QgPscVLRb4LIpocnL5x+DmvXMTI=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -38,7 +50,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		vSI9t356afgViDBOY1vWi9TGEoo=
+		qM5iuPEmvHZRhFKtT2EJEOfHZ1I=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -59,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yqCRxeSCrYfoL27WxriFnjJKtlkpmRMHCPgM8jathU8=
+			0FWss3mjwCt+Md92yzsd2+96BMsQXwjNiEwfWbTFBkw=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yLBeSUsOg4PCh8Hhjycao4kZdeL4NSR/llTburaQC6w=
+			Su+IjrzA4w1L1yXGyOpAkPLEjBE2f5/CZgRh/mcEXb4=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -83,11 +95,25 @@
 			P6ATNBROKPkGH1IEu/6OfpJIkNBhSozhuU4uQQ5rGr0=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/Treater.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EtjB9+zjcnUMFAeCNDIQESS6HQuAqKwaUgeI2UraWX4=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/mainpage_background.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			P66LjP59RfK0qGiSK+E32mA06/MolzLxnNK+/JQaES4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/treasure-2%201.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zL6E5M+uOdP+0+Zv9JjDYH79qbUeCJyoAeD8vN9bAJY=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -108,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p0IuKdBKacrsOtQOzQz116uwPn3AAIIVlznZ9hbqibY=
+			L0lM8k8f5U5fA8KseHYfKK2i2yaABHFR22ijzmvnl9I=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
