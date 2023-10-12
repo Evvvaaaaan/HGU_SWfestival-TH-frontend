@@ -44,9 +44,7 @@ class _MainPageState extends State<MainPage> {
                               width: 30,
                             ),
                             Icon(Icons.my_library_add_outlined),
-                            SizedBox(
-                              width: 20,
-                            ),
+                            SizedBox(width: 2),
                           ],
                         ),
                       ),
