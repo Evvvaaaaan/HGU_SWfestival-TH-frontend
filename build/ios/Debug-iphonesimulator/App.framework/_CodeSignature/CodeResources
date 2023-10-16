@@ -10,19 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-<<<<<<< HEAD
-		ZjE9HNNRrLIYF+E29znnk/5iJVc=
-		</data>
-		<key>flutter_assets/AssetManifest.json</key>
-		<data>
-		uM0Fx9PtiawEwJG9X7SzFSO10oA=
-=======
 		LDNWhlF0orjWA675i5lSvOnWu8I=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
 		iZTGaVtJJskZzjz8FrZphrwSD9c=
->>>>>>> LoginPage#2
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -40,21 +32,9 @@
 		<data>
 		mlLknOMSjbG4qfiZgDBRVzFEwCE=
 		</data>
-		<key>flutter_assets/assets/images/.DS_Store</key>
-		<data>
-		SL2kzTX0NKr20H+vvbgNDxvdvV4=
-		</data>
-		<key>flutter_assets/assets/images/Treater.png</key>
-		<data>
-		mlLknOMSjbG4qfiZgDBRVzFEwCE=
-		</data>
 		<key>flutter_assets/assets/images/mainpage_background.png</key>
 		<data>
 		r3RC7lPfF06zxIgrZnFO8f0d5tU=
-		</data>
-		<key>flutter_assets/assets/images/treasure-2%201.png</key>
-		<data>
-		QgPscVLRb4LIpocnL5x+DmvXMTI=
 		</data>
 		<key>flutter_assets/assets/images/treasure-2%201.png</key>
 		<data>
@@ -70,11 +50,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-<<<<<<< HEAD
-		qM5iuPEmvHZRhFKtT2EJEOfHZ1I=
-=======
-		PffqoyAVGpX6Ot7Ys7poXDDJr+I=
->>>>>>> LoginPage#2
+		QJK3JkjCsgVA1KSd2Amz3TYXAWs=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -95,22 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			0FWss3mjwCt+Md92yzsd2+96BMsQXwjNiEwfWbTFBkw=
-=======
 			jQ4FDteNFQhE04xuUlUNM3C3q+VJCm/hqHglB/UXzZw=
->>>>>>> LoginPage#2
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			Su+IjrzA4w1L1yXGyOpAkPLEjBE2f5/CZgRh/mcEXb4=
-=======
 			NkMkAMbBdTG+OC3Fp5n3d462uY55EBt6/+DxtiYcn3k=
->>>>>>> LoginPage#2
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -134,25 +102,11 @@
 			EtjB9+zjcnUMFAeCNDIQESS6HQuAqKwaUgeI2UraWX4=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/images/Treater.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EtjB9+zjcnUMFAeCNDIQESS6HQuAqKwaUgeI2UraWX4=
-			</data>
-		</dict>
 		<key>flutter_assets/assets/images/mainpage_background.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			EhE6eqJRwBvILiuUg/+QYQOjX9cRUBSEHF5eJcsbvpY=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/images/treasure-2%201.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zL6E5M+uOdP+0+Zv9JjDYH79qbUeCJyoAeD8vN9bAJY=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/treasure-2%201.png</key>
@@ -180,11 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			L0lM8k8f5U5fA8KseHYfKK2i2yaABHFR22ijzmvnl9I=
-=======
-			sLiCwEyHx6P0wRxSqS4JEq2Rtwh6bDIVOruizNq8i70=
->>>>>>> LoginPage#2
+			LQ/O1oQ+O4SIPVzu6y+gayfyVrW4EjWFnshgPLqkI8o=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

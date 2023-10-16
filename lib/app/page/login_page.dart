@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:logger/logger.dart';
+import 'package:hgu_sw_festival/api.dart';
+import 'package:hgu_sw_festival/createAccount.dart';
+import 'dart:convert';
+import 'package:http/http.dart' as http;
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -51,12 +54,14 @@ class LoginPageFormState extends State<LoginPageForm> {
                   hintText: '이메일',
                   fillColor: Color(0xFFFAFAFA), // 내부 색상을 #FAFAFA로 변경
                   filled: true,
+                  contentPadding:
+                      EdgeInsets.symmetric(vertical: 15.0, horizontal: 10.0),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.all(
                       Radius.circular(12.0),
                     ),
                     borderSide: BorderSide(
-                      color: Color(0xFFEFEFEF), // #EFEFEF 색상
+                      color: Color.fromRGBO(239, 239, 239, 1),
                     ),
                   ),
                 ),
@@ -74,6 +79,8 @@ class LoginPageFormState extends State<LoginPageForm> {
                   hintText: '비밀번호',
                   fillColor: Color(0xFFFAFAFA), // 내부 색상을 #FAFAFA로 변경
                   filled: true,
+                  contentPadding:
+                      EdgeInsets.symmetric(vertical: 15.0, horizontal: 10.0),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.all(
                       Radius.circular(12.0),
@@ -97,6 +104,7 @@ class LoginPageFormState extends State<LoginPageForm> {
                   // 여기에서 로그인 로직을 구현합니다.
                   String email = emailController.text;
                   String password = passwordController.text;
+                  sendPostRequest(email, password);
                 },
                 style: ButtonStyle(
                   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
@@ -106,10 +114,14 @@ class LoginPageFormState extends State<LoginPageForm> {
                     ),
                   ),
                   backgroundColor: MaterialStateProperty.all<Color>(
-                    const Color(0x00d19a47),
+                    const Color.fromRGBO(170, 123, 24, 1),
                   ),
                 ),
-                child: const Text('로그인'),
+                child: const Text(
+                  '로그인',
+                  style: TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.w700),
+                ),
               ),
             ),
             const SizedBox(
@@ -123,6 +135,7 @@ class LoginPageFormState extends State<LoginPageForm> {
                   // 여기에서 로그인 로직을 구현합니다.
                   String email = emailController.text;
                   String password = passwordController.text;
+                  accountPostRequest();
                 },
                 style: ButtonStyle(
                   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
@@ -132,10 +145,15 @@ class LoginPageFormState extends State<LoginPageForm> {
                     ),
                   ),
                   backgroundColor: MaterialStateProperty.all<Color>(
-                    const Color(0x00d19a47), // 배경 색상 변경
+                    const Color.fromRGBO(255, 214, 153, 1), // 배경 색상 변경
                   ),
                 ),
-                child: const Text('회원가입'),
+                child: const Text(
+                  '회원가입',
+                  style: TextStyle(
+                      color: Color.fromRGBO(170, 123, 24, 1),
+                      fontWeight: FontWeight.w700),
+                ),
               ),
             ),
           ],

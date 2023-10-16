@@ -1,13 +1,12 @@
 import 'dart:convert';
-
 import 'package:http/http.dart' as http;
 
-Future<void> sendPostRequest() async {
+Future<void> sendPostRequest(email, password) async {
   final url = Uri.parse('http://172.17.200.74:64000/api/v1/token');
 
   final Map<String, String> requestBody = {
-    'email': 'string',
-    'password': 'string',
+    'email': email,
+    'password': password,
   };
 
   final response = await http.post(
@@ -26,13 +25,13 @@ Future<void> sendPostRequest() async {
     final refreshToken = responseData['refresh_token'];
 
     // 추출한 데이터를 출력하거나 다른 작업을 수행할 수 있습니다.
-    // print('Access Token: $accessToken\n');
-    // print('Token Type: $tokenType\n');
-    // print('Refresh Token: $refreshToken');
+    print('Access Token: $accessToken\n');
+    print('Token Type: $tokenType\n');
+    print('Refresh Token: $refreshToken');
   } else {
     // 요청이 실패한 경우 오류를 처리할 수 있습니다.
-    // print('POST 요청 실패');
-    // print('상태 코드: ${response.statusCode}');
-    // print('응답 데이터: ${response.body}');
+    print('POST 요청 실패');
+    print('상태 코드: ${response.statusCode}');
+    print('응답 데이터: ${response.body}');
   }
 }
